@@ -10,7 +10,10 @@ from telegram.utils.helpers import escape_markdown
 
 import Hottie_Robot.modules.fun_strings as fun
 from Hottie_Robot import DEMONS, DRAGONS, dispatcher
-from Hottie_Robot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from Hottie_Robot.modules.disable import (
+    DisableAbleCommandHandler,
+    DisableAbleMessageHandler,
+)
 from Hottie_Robot.modules.helper_funcs.alternate import typing_action
 from Hottie_Robot.modules.helper_funcs.extraction import extract_user
 
